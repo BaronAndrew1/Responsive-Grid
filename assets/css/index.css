@@ -1,0 +1,124 @@
+body{
+  font-family: "Lato", "Calibri", "Arial", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.container{
+  padding-top: 200px;
+}
+
+.col{
+  display: block;
+  width: 16.66%;
+  float: left;
+}
+
+.felis{
+  color: white;
+  position:relative;
+  background:rgba(71,163,218,0.2);
+  padding-top:70.25%;
+  padding-bottom: 70.25%;
+  left:5%;
+  margin-right:10%;
+  margin-bottom: -155%;
+  margin-top: 5%;
+  display:none;
+}
+
+.cat:hover div{
+  display: block;
+}
+
+/*.felis{
+  vertical-align: middle;
+  width: 14%;
+  height: 50%;
+  position: fixed;
+  top:20px;
+  left:20px;
+  right:20px;
+  bottom:20px;
+  background:red;
+}*/
+
+/*.modal{
+  width: 5%;
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 1.5%;;
+  line-height: 1.2em;
+  color: white;
+  padding: 9.5% 4% 9.5% 4%;
+  background: red;
+  text-align: center;
+}*/
+
+img{
+  width: 100%;
+}
+
+.cat{
+  float: left;
+}
+
+@media (max-width: 1190px){
+  .col{
+    width: 20%;
+  }
+  .column-6{
+    width: 100%;
+  }
+  .cat6{
+    width: 20%;
+  }
+}
+
+@media (max-width: 945px){
+  .col{
+    width: 25%;
+  }
+  .cat{
+    width: 100%;
+  }
+  .column-5{
+    width: 50%;
+  }
+  .column-6{
+    width: 50%;
+  }
+  .cat5{
+    width: 50%;
+  }
+  .cat6{
+    width: 50%;
+  }
+  .cat6:last-child{
+    margin-left: -49.99%;
+  }
+}
+
+@media (max-width: 660px){
+  .col{
+    width: 33.33%;
+  }
+  .cat{
+    width: 100%;
+  }
+  .cat6:last-child{
+    margin-left:0;
+  }
+}
+
+@media (max-width: 400px){
+  .col{
+    width: 50%;
+  }
+}
+
+@media (max-width: 300px){
+  .col{
+    width: 100%;
+  }
+}
